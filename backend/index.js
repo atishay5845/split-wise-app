@@ -13,12 +13,17 @@ import commentRoutes from './routes/comments.js';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const defaultOrigins = [
+  'http://localhost:3000',
+  'http://localhost:5173'
+];
+
+const corsOrigins = process.env.CORS_ORIGINS
+  ? process.env.CORS_ORIGINS.split(',').map((origin) => origin.trim()).filter(Boolean)
+  : defaultOrigins;
+
 const corsOptions = {
-  origin: [
-    'http://localhost:3000',
-    'http://localhost:5173',
-    'https://splitwise-gold-seven.vercel.app'
-  ],
+  origin: corsOrigins,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 };
