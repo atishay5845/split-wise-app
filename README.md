@@ -4,9 +4,9 @@ SplitShare is a simplified, high-fidelity Splitwise-inspired application built f
 
 ## 🚀 Deployed URL & Repositories
 
-- **Backend Deployed App**: [https://splitwise-4lrc.onrender.com](https://splitwise-4lrc.onrender.com)
-- **Public Deployed App**: [https://splitwise-gold-seven.vercel.app](https://splitwise-gold-seven.vercel.app)
-- **GitHub Repository**: [https://github.com/Rajeev12R/Splitwise](https://github.com/Rajeev12R/Splitwise)
+- **Backend Deployed App**: [https://split-wise-app-59zg.onrender.com](https://split-wise-app-59zg.onrender.com)
+- **Public Deployed App**: [https://split-wise-app-mauve.vercel.app](https://split-wise-app-mauve.vercel.app)
+- **GitHub Repository**: [https://github.com/atishay5845/split-wise-app](https://github.com/atishay5845/split-wise-app)
 
 ---
 
