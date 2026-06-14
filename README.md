@@ -1,21 +1,22 @@
-# Splitify - Splitwise Clone App
+# SplitShare - Splitwise Clone App
 
-Splitify is a simplified, high-fidelity Splitwise-inspired application built for Spreetail's Software Engineering Intern assignment. It allows users to manage shared expenses, track group-wise and individual balances, resolve debts through a transaction minimization engine, and chat in real-time about specific expenses.
+SplitShare is a simplified, high-fidelity Splitwise-inspired application built for Spreetail's Software Engineering Intern assignment. It allows users to manage shared expenses, track group-wise and individual balances, resolve debts through a transaction minimization engine, and chat in real-time about specific expenses.
 
 ## 🚀 Deployed URL & Repositories
-*   **Backend Deployed App**: [https://splitwise-4lrc.onrender.com](https://splitwise-4lrc.onrender.com)
-*   **Public Deployed App**: [https://splitwise-gold-seven.vercel.app](https://splitwise-gold-seven.vercel.app)
-*   **GitHub Repository**: [https://github.com/Rajeev12R/Splitwise](https://github.com/Rajeev12R/Splitwise)
+
+- **Backend Deployed App**: [https://splitwise-4lrc.onrender.com](https://splitwise-4lrc.onrender.com)
+- **Public Deployed App**: [https://splitwise-gold-seven.vercel.app](https://splitwise-gold-seven.vercel.app)
+- **GitHub Repository**: [https://github.com/Rajeev12R/Splitwise](https://github.com/Rajeev12R/Splitwise)
 
 ---
 
 ## 🛠️ Technology Stack
 
-*   **Frontend**: React (Vite), Tailwind CSS (v4), React Router (v6), TanStack Query, Axios, Lucide React
-*   **Backend**: Node.js, Express.js, Socket.io (WebSocket)
-*   **Database**: PostgreSQL (Neon Serverless Database)
-*   **ORM**: Prisma ORM
-*   **Authentication**: JSON Web Tokens (JWT)
+- **Frontend**: React (Vite), Tailwind CSS (v4), React Router (v6), TanStack Query, Axios, Lucide React
+- **Backend**: Node.js, Express.js, Socket.io (WebSocket)
+- **Database**: PostgreSQL (Neon Serverless Database)
+- **ORM**: Prisma ORM
+- **Authentication**: JSON Web Tokens (JWT)
 
 ---
 
@@ -52,17 +53,21 @@ splitwise/
 ## 💻 Local Setup Instructions
 
 ### 1. Prerequisites
+
 Ensure you have the following installed on your machine:
-*   [Node.js](https://nodejs.org) (v18 or higher recommended)
-*   [npm](https://www.npmjs.com/) (installed automatically with Node)
+
+- [Node.js](https://nodejs.org) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) (installed automatically with Node)
 
 ### 2. Clone the Repository
+
 ```bash
 git clone https://github.com/Rajeev12R/Splitwise.git
 cd Splitwise
 ```
 
 ### 3. Backend Setup
+
 1.  Navigate to the backend directory:
     ```bash
     cd backend
@@ -92,6 +97,7 @@ cd Splitwise
     The server will start on [http://localhost:3000](http://localhost:3000).
 
 ### 4. Frontend Setup
+
 1.  Open a new terminal session and navigate to the frontend directory:
     ```bash
     cd frontend
@@ -117,6 +123,6 @@ cd Splitwise
 
 This project was built in collaboration with **Gemini 3.5 Flash** (via the Antigravity Agentic IDE) acting as a junior developer.
 
-*   **Role Constraints**: The AI was explicitly instructed not to assume requirements, to refrain from making technical recommendations without consultation, and to maintain `AI_CONTEXT.md` as the absolute source of truth.
-*   **Documentation Flow**: Every product decision, database schema design, and UI route was documented in `AI_CONTEXT.md` before any implementation scripts were executed.
-*   **Prompts Used**: Refer to [prompts/prompts.md](file:///Users/ranjan/splitwise/prompts/prompts.md) for the exact prompt contexts used to guide the development cycle.
+- **Role Constraints**: The AI was explicitly instructed not to assume requirements, to refrain from making technical recommendations without consultation, and to maintain `AI_CONTEXT.md` as the absolute source of truth.
+- **Documentation Flow**: Every product decision, database schema design, and UI route was documented in `AI_CONTEXT.md` before any implementation scripts were executed.
+- **Prompts Used**: Refer to [prompts/prompts.md](file:///Users/ranjan/splitwise/prompts/prompts.md) for the exact prompt contexts used to guide the development cycle.

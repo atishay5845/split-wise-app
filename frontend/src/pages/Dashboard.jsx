@@ -93,7 +93,7 @@ export default function Dashboard() {
             <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center shadow-md shadow-emerald-500/20">
               <Compass className="w-5 h-5 text-slate-950 stroke-[2.5]" />
             </div>
-            <span className="font-bold tracking-tight text-slate-100">Splitify</span>
+            <span className="font-bold tracking-tight text-slate-100">SplitShare</span>
           </Link>
 
           <div className="flex items-center gap-4">

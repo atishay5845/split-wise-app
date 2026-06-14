@@ -367,7 +367,7 @@ export default function GroupDetail() {
             <div className="w-6 h-6 rounded-md bg-emerald-500 flex items-center justify-center">
               <Compass className="w-4 h-4 text-slate-950 stroke-[2.5]" />
             </div>
-            <span className="font-bold tracking-tight text-slate-200">Splitify</span>
+            <span className="font-bold tracking-tight text-slate-200">SplitShare</span>
           </div>
         </div>
       </header>

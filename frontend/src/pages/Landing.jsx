@@ -18,7 +18,7 @@ export default function Landing() {
             <Compass className="w-6 h-6 text-slate-950 stroke-[2.5]" />
           </div>
           <span className="text-xl font-bold tracking-tight bg-linear-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
-            Splitify
+            SplitShare
           </span>
         </div>
         <nav className="flex items-center gap-4">
@@ -127,10 +127,10 @@ export default function Landing() {
             <div className="w-6 h-6 rounded-md bg-emerald-500 flex items-center justify-center">
               <Compass className="w-4 h-4 text-slate-950 stroke-[2.5]" />
             </div>
-            <span className="font-semibold text-slate-300">Splitify</span>
+            <span className="font-semibold text-slate-300">SplitShare</span>
           </div>
           <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} Splitify. Developed for Spreetail Assignment.
+            &copy; {new Date().getFullYear()} SplitShare. Developed for Spreetail Assignment.
           </p>
         </div>
       </footer>

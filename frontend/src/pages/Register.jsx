@@ -47,7 +47,7 @@ export default function Register() {
             <Compass className="w-5.5 h-5.5 text-slate-950 stroke-[2.5]" />
           </div>
           <span className="text-xl font-bold tracking-tight bg-linear-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
-            Splitify
+            SplitShare
           </span>
         </Link>
 
